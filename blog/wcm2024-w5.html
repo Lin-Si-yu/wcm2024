@@ -7,25 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>About</title>
+  <title>第五周的網誌</title>
 
 
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-  <link href="../../" rel="canonical" />
+  <link href="./" rel="canonical" />
 
   <!-- Feed -->
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="網際內容管理系統 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="網際內容管理系統 Categories Atom Feed" />
 
-  <link href="../../theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
-      <link href="../../theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
+      <link href="./theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
 
   
-    <link href="../../theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
 
   <!-- Custom fonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
@@ -39,27 +40,49 @@
   <![endif]-->
 
 
+    <link href="./wcm2024-w5.html" rel="canonical" />
+
+        <meta name="description" content="第五週將利用與 ChatGPT 的對話，整理與精密機械科有關的問題詢答紀錄">
+
+        <meta name="author" content="kmol">
+
+        <meta name="tags" content="網誌編寫">
+
+
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="網際內容管理系統"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="網際內容管理系統"/>
-<meta property="og:description" content="View the blog."/>
+<meta property="og:title" content="第五周的網誌"/>
+<meta property="og:description" content="第五週將利用與 ChatGPT 的對話，整理與精密機械科有關的問題詢答紀錄"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="../../"/>
-<meta property="og:image" content="../../theme/images/home-bg.jpg">
+<meta property="og:url" content="./wcm2024-w5.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-03-18 11:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-03-18 09:42:54.310992+08:00"/>
+<meta property="article:author" content="./author/kmol.html">
+<meta property="article:section" content="w5"/>
+<meta property="article:tag" content="網誌編寫"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
 
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "Website",
-  "name": " 網際內容管理系統 ",
-  "url" : "../../",
-  "image": "../../theme/images/home-bg.jpg",
-  "description": "View the blog."
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "第五周的網誌",
+  "headline": "第五周的網誌",
+  "datePublished": "2024-03-18 11:00:00+08:00",
+  "dateModified": "2024-03-18 09:42:54.310992+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "kmol",
+    "url": "./author/kmol.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./wcm2024-w5.html",
+  "description": "第五週將利用與 ChatGPT 的對話，整理與精密機械科有關的問題詢答紀錄"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -150,34 +173,46 @@ init_mathjax();
     <ul>
     <!--
 
-              <li class="nav-about active" role="presentation"><a href="../../pages/about/">About</a></li>
+              <li role="presentation"><a href="./pages/about/">About</a></li>
       -->
 
-            <li><a href="../../pages/about/index.html">About</span></a></li>
+            <li><a href="./pages/about/index.html">About</span></a></li>
             
-            <li><a href="../../archives.html">Archives</span></a></li>
+            <li><a href="./archives.html">Archives</span></a></li>
             
-            <li><a href="../../categories.html">Categories</span></a></li>
+            <li><a href="./categories.html">Categories</span></a></li>
             
-            <li><a href="../../tags.html">Tags</span></a></li>
+            <li><a href="./tags.html">Tags</span></a></li>
 
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
-                <a class="home-button" href="../../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
             </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">About</h1>
-            <div class="post-cover cover" style="background-image: url('../../theme/images/post-bg.jpg')">
+        <h1 class="post-title">第五周的網誌</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/kmol.html">Kmol</a>
+            | <time datetime="Mon 18 March 2024">Mon 18 March 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Mon 18 March 2024</span>
+            <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
 
@@ -185,25 +220,58 @@ init_mathjax();
     <a class="hidden-close"></a>
 
 <section class="search">
-      <form class="navbar-search" action="../../search.html">
+      <form class="navbar-search" action="./search.html">
       <input type="text"  placeholder="Search" name="q" id="tipue_search_input" required>
     </form>
 </section>
 
-  <!-- Post content -->
-  <main class="content" role="main">
-      <article class="post">
-      <div class="inner">
-          <section class="post-content">
-              <h1>cmsimde 內容管理系統</h1>
-<p>倉儲: <a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a></p>
-<p>網站: <a href="https://mde.tw/cmsimde_site/">https://mde.tw/cmsimde_site/</a></p>
-<p>簡報: <a href="https://mde.tw/cmsimde_site/reveal">https://mde.tw/cmsimde_site/reveal</a></p>
-<p>網誌: <a href="https://mde.tw/cmsimde_site/blog">https://mde.tw/cmsimde_site/blog</a></p>
-          </section>
-      </div>
-      </article>
-  </main>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>第五週將利用與 ChatGPT 的對話，整理與精密機械科有關的問題詢答紀錄</p>
+
+
+<h1>對 ChatGPT 提問</h1>
+<ul>
+<li>未來在精密機械專業尋找實習機會, 需要準備哪些資料?
+履歷、求職信、成績單、推薦信、作品集、個人身分證明。面試準備確保所有資料都準確無誤，並在申請時按要求提交</li>
+<li>以目前台灣的產業情況而言, 比較有永續的精密機械產業有哪些?
+半導體製造設備、精密加工設備、光學製造設備、醫療設備、智慧製造</li>
+<li>現代年輕人, 應該如何學習運用電腦與網路?
+基礎知識學習、尋找線上教學資源、實踐應用、學習程式設計、網路安全意識、與他人交流和分享</li>
+<li>以目前 AI 的發展趨勢來看, 會對學校教育有哪些重大影響?
+個性化學習、智能教學、輔助跨時空學習、數據驅動的決策、創新教學模式、教師角色轉變
+請利用網路搜尋上列問題的可能回應資料, 篩選認為有用的資料放入個人的課程網站中, 並回報到課程倉儲的<a href="https://github.com/mdecycu/wcm2024/discussions/1">討論區</a>.</li>
+</ul>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/wang-zhi-bian-xie.html">網誌編寫</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="./2024-Spring-w1-blog-tutorial.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">2024 Spring 課程</h2>
+                            <p class="post-nav-excerpt">2024 Spring 網際內容管理與協同產品設計實習課程教學導引.</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
@@ -219,7 +287,7 @@ init_mathjax();
     </footer>
   </section>
   
-  <script type="text/javascript" src="../../theme/js/script.js"></script>
+  <script type="text/javascript" src="./theme/js/script.js"></script>
 
  
 

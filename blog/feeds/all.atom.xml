@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-18T11:00:00+08:00</updated><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-02-18T01:42:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-18T11:00:00+08:00</updated><entry><title>第五周的網誌</title><link href="./wcm2024-w5.html" rel="alternate"></link><published>2024-03-18T11:00:00+08:00</published><updated>2024-03-18T09:42:54+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-18:./wcm2024-w5.html</id><summary type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話，整理與精密機械科有關的問題詢答紀錄&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;第五週將利用與 ChatGPT 的對話，整理與精密機械科有關的問題詢答紀錄&lt;/p&gt;
+
+
+&lt;h1&gt;對 ChatGPT 提問&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;未來在精密機械專業尋找實習機會, 需要準備哪些資料?
+履歷、求職信、成績單、推薦信、作品集、個人身分證明。面試準備確保所有資料都準確無誤，並在申請時按要求提交&lt;/li&gt;
+&lt;li&gt;以目前台灣的產業情況而言, 比較有永續的精密機械產業有哪些?
+半導體製造設備、精密加工設備、光學製造設備、醫療設備、智慧製造&lt;/li&gt;
+&lt;li&gt;現代年輕人, 應該如何學習運用電腦與網路?
+基礎知識學習、尋找線上教學資源、實踐應用、學習程式設計、網路安全意識、與他人交流和分享&lt;/li&gt;
+&lt;li&gt;以目前 AI 的發展趨勢來看, 會對學校教育有哪些重大影響?
+個性化學習、智能教學、輔助跨時空學習、數據驅動的決策、創新教學模式、教師角色轉變
+請利用網路搜尋上列問題的可能回應資料, 篩選認為有用的資料放入個人的課程網站中, 並回報到課程倉儲的&lt;a href="https://github.com/mdecycu/wcm2024/discussions/1"&gt;討論區&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-03-18T08:34:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
